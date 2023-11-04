@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiComm_IssueForeBackChange.MainPage">
+    <Grid RowDefinitions="44,44,44,44,*" RowSpacing="3">
+        <Button Grid.Row="0" x:Name="btnShowF" Text="Show Foreground" TextColor="White" BackgroundColor="Blue" Clicked="btnShowF_Clicked" />
+        <Button Grid.Row="1" x:Name="btnShowB" Text="Show Background" TextColor="White" BackgroundColor="Blue" Clicked="btnShowB_Clicked" />
+    </Grid>
+</ContentPage>
